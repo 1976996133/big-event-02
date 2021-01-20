@@ -12,6 +12,7 @@
 
 <body class="layui-layout-body">
     <div class="layui-layout layui-layout-admin">
+        <!-- 头部导航栏 -->
         <div class="layui-header">
             <div class="layui-logo">
                 <img src="/assets/images/logo.png" alt="">
@@ -66,14 +67,18 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 基本资料</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 更换头像</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 更改密码</a></dd>
+                            <dd><a href="/user/user_info.html" target="fm">
+                                    <i class="layui-icon layui-icon-app"></i> 基本资料</a></dd>
+                            <dd><a href="/user/user_avatar.html" target="fm">
+                                    <i class="layui-icon layui-icon-app"></i> 更换头像</a></dd>
+                            <dd><a href="/user/user_pwd.html" target="fm">
+                                    <i class="layui-icon layui-icon-app"></i> 更改密码</a></dd>
                         </dl>
                     </li>
                 </ul>
             </div>
         </div>
+
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
